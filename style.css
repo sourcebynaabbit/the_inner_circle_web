@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body1 {
+    background-image: url(Og.png);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px 1000px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    font-size: 45px;
+    display: flex;
+    position: relative;
+    top: 35px;
+    left: 90px;
+}
+
+.lifestyle {
+    position: relative;
+    top: 141px;
+    left: 64%;
+    font-size: 124px;
+    color: rgb(255, 255, 255);
+}
+
+#want {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 65px;
+    left: 64%;
+    font-size: 213px;
+    color: rgb(0, 0, 0);
+}
+
+.lifestyle:hover {
+    position: relative;
+    top: 141px;
+    left: 64%;
+    font-size: 124px;
+
+    color: rgb(0, 0, 0);
+}
+
+#want:hover {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 65px;
+    left: 64%;
+    font-size: 213px;
+
+    color: rgb(250, 250, 250);
+}
+
+.right_text {
+    position: relative;
+
+    top: -83px;
+    left: -33px;
+}
+
+.grow {
+    position: relative;
+    bottom: -190px;
+    left: 112px;
+    font-size: 101px;
+}
+
+.community:hover {
+    position: relative;
+    bottom: -136px;
+    left: 103px;
+    font-size: 183px;
+    color: black;
+}
+
+.bottom_text {
+    position: relative;
+    top: -6px;
+}
+
+.grow:hover {
+    position: relative;
+    bottom: -190px;
+    left: 112px;
+    font-size: 101px;
+    color: azure;
+}
+
+.community {
+    position: relative;
+    bottom: -136px;
+    left: 103px;
+    font-size: 183px;
+    color: azure
+}
+
+
+/* .login{
+    position: relative;
+    top: 46px;
+    right: -1737px;
+    margin: 0;
+    padding: 0;
+    width: 130px;
+    height: 50px;
+    opacity: 0.8;
+    rotate: 90deg;
+} */
+
+
+/* CSS */
+.login {
+    background-color: #FFF0;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    left: 1726px;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: 10rem;
+    rotate: 90deg;
+    top: -49px;
+    rotate: 90deg;
+}
+
+.login:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow .2s;
+}
+
+.login:active {
+    background-color: #F7F7F7;
+    border-color: #000000;
+    transform: scale(.96);
+}
+
+.login:disabled {
+    border-color: #DDDDDD;
+    color: #DDDDDD;
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+
+.middletext {
+    position: relative;
+    top: -321px;
+    left: 665px;
+    font-size: 30px;
+    color: white;
+}
